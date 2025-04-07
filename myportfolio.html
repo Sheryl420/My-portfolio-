@@ -53,7 +53,7 @@
             background-color: #56768D;
             color: #fff;
             border: none;
-            padding: 10px 20px;
+            padding: 150px 500px;
             font-size: 16px;
             cursor: pointer;
         }
@@ -63,17 +63,31 @@
             color: #fff;
             padding: 2em;
         }
+        .circle-image {
+            border-radius: 50%;
+            margin: 0 10px;
+            overflow: hidden;
+            border: 2px solid #721CB8;
+            width: 150px;
+            height: 150px;
+            box-shadow: #871dde;
+        }
+        .circle-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
         
         .project-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 40px;
+            grid-template-columns: repeat(3, 3fr);
+            gap: 30px;
         }
         
         .project {
             background-color: #56768D;
-            padding: 1em;
-            border-radius: 10px;
+            padding: 5em;
+            border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         
@@ -101,7 +115,7 @@
             background-color: #56768D;
             color: #fff;
             border: none;
-            padding: 10px 20px;
+            padding: 200px 500px;
             font-size: 16px;
             cursor: pointer;
         }
@@ -141,6 +155,9 @@
                 <h1>Welcome to My Portfolio</h1>
                 <p>In this portfolio you will see my work.</p>
                 <button>View More</button>
+                <div class="circle-image">
+                    <img src="https://i.pinimg.com/474x/0f/42/a3/0f42a339ff82a4626e34f391399742c8.jpg" alt="Circle Image 2">
+                </div>
             </section>
         </div>
         <div id="ourwork" class="tab-content">
@@ -149,15 +166,24 @@
                 <div class="project-grid">
                     <div class="project">
                         <h2>Posters</h2>
-                        <p>Sample project description.</p>
+                        <p>In this file you will see multiple porsters from different projects.</p>
+                        <div class="circle-image">
+                            <img src="https://i.pinimg.com/474x/d7/2f/85/d72f85316b27436fe66c1829b279d34a.jpg" alt="Circle Image 2">
+                        </div>
                     </div>
                     <div class="project">
                         <h2>Logos</h2>
-                        <p>Sample project description.</p>
+                        <p>Logos I have created for different Projects.</p>
+                        <div class="circle-image">
+                            <img src="https://i.pinimg.com/474x/a9/b0/58/a9b058e190e68186b852803df984d7f7.jpg" alt="Circle Image 2">
+                        </div>
                     </div>
                     <div class="project">
                         <h2>Book Design</h2>
-                        <p>Sample project description.</p>
+                        <p>Children's Book designs.</p>
+                        <div class="circle-image">
+                            <img src="https://i.pinimg.com/474x/94/44/f2/9444f29841a686425bd083392fcf37b9.jpg" alt="Circle Image 2">
+                        </div>
                     </div>
                 </div>
             </section>

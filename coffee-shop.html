@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <Style>
+        /* This is a basic CSS reset targeting ALL elements.*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            line-height: 1.5;
+        }
+        header{
+            background-color: #ff00bf;
+            color: #dfdcdc;
+            text-align: center;
+            padding: 20px;
+        }
+        nav{
+            background-color: #f8d3ee;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+        /*This targets all links inside the navigation ONLY*/
+      nav a{
+            color: #fb3db9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main{
+            margin: 20px;
+            padding: 20px;
+        }
+        /*Classes are targeted with a dot.*/
+        .Box{
+border-width: 1px;
+border-style: solid;
+border-color: #ccc;
+padding: 20px;
+margin-bottom: 20px;
+        }
+        .highlight{
+            background-color: #f8afec;
+            border-color: #690146;
+        }
+    </Style>
+</head>
+<body>
+    <!--Website Header--> 
+
+    <Header>
+        <h1>
+            Welcome to Our Coffee Shop
+        </h1>
+    </Header>
+    <!-- Website Navigation-->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <!--Main Content-->
+    <main>
+        <!--Welcome Box-->
+        <div class="Box highlight">
+            <h2>Our Story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore expedita, voluptatum nostrum cupiditate aut rerum est suscipit ipsum cum illum sequi eligendi vel voluptatem obcaecati, similique ducimus, veniam a laboriosam.</p>
+        </div>
+<!--Featured Item Box-->
+<Div class="Box">
+    <h2>Featured Item</h2>
+    <ul>
+        <li>Espresso - 1.50&euro;</li>
+        <li>Cappucino - 2.00&euro;</li>
+        <li>Hot Chocolate - 2.50&euro;</li>
+        <li>Water - 1.00&euro;</li>
+    </ul>
+</Div>
+<!--Location Box-->
+<div class="Box">
+    <h2>Location</h2>
+    <p>Door 69 Haha Good Luck Str, Mosta</p>
+</div>
+    </main>
+    
+</body>
+</html>
